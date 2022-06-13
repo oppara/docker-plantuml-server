@@ -1,6 +1,6 @@
 # Docker + VSCode で PlantUML を Markdown 内で使う
 
-Docker で PlantUML サーバを立ち上げて利用する。
+[This version of PlantUML is 219 days old, so you should consider upgrading · Issue #487 · qjebbs/vscode-plantuml](https://github.com/qjebbs/vscode-plantuml/issues/487) で動作しない場合があるので、Docker で PlantUML サーバを立ち上げて利用する。
 
 ## コンテナ起動
 
