@@ -8,6 +8,10 @@ up: ## Create and start containers
 down: ## Stop and remove containers, network
 	docker compose down
 
+.PHONY: destroy
+destroy: ## Remove  containers, image, voludme and network
+	docker-compose down --rmi all --volumes --remove-orphans
+
 .PHONY: open
 open: ## Open PlantUML Server page
 	open http://localhost:9876
